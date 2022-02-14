@@ -62,7 +62,7 @@
         justify-content: center;
         padding-top: 0.85rem;
         display: flex;
-
+        padding-bottom: 10rem;
         /* You can remove these code below*/
         * {
           box-sizing: border-box;
@@ -97,4 +97,46 @@
       }
     }
   }
+}
+
+.line {
+  height: 8px;
+  background-color: #222;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.app {
+  display: flex;
+  background-color: #000;
+  padding: 5rem 16rem;
+
+  .description {
+    h1 {
+      max-width: 400px;
+      color: #fff;
+    }
+
+    h3 {
+      // max-width: 600px;
+      color: #fff;
+      font-weight: 400;
+    }
+
+    a {
+      margin-top: 2rem;
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.5rem;
+    }
+  }
+
+  .app-logo {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+.bottom {
+  background-color: #000;
 }
